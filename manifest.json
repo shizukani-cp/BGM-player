@@ -1,0 +1,6 @@
+{
+    "uuid":"c20ff3eec5fe12af845dcb842af27f04",
+    "appname":"BGM player",
+    "exepath":"dist/BGM.exe",
+    "command":"start"
+}
