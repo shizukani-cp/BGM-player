@@ -1,0 +1,27 @@
+[project]
+name = "bgm-player"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "shizukani-cp", email = "to.maimai0606@gmail.com" }
+]
+dependencies = [
+    "pysimplegui>=5.0.6",
+    "playsound==1.2.2",
+]
+readme = "README.md"
+requires-python = ">= 3.8"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = []
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/bgm_player"]

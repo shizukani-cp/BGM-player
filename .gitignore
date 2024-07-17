@@ -1,1 +1,3 @@
 *.toc
+.mypy_cache/
+.venv/
